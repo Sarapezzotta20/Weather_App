@@ -1,5 +1,20 @@
+import "../styles/components/Search.scss";
+
 function Search() {
-  return <div className="Search">Search</div>;
+  return (
+    <div className="search-container">
+      <div className="search-icon">
+        <i class="bi bi-search"></i>
+      </div>
+      <div className="search-input">
+        <input
+          type="text"
+          name="search-city"
+          placeholder="Search city ..."
+        ></input>
+      </div>
+    </div>
+  );
 }
 
 export default Search;

@@ -1,8 +1,8 @@
 function Place() {
   return (
     <div className="Place">
-      <i></i>
-      <b>London</b>
+      <i class="bi bi-geo-alt"></i>
+      <b>London</b>, united kingdom
     </div>
   );
 }
